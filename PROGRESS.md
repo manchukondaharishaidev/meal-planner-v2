@@ -132,17 +132,18 @@ meal-planner-v2/
 - ✅ Save to Firestore
 - ✅ Display calculated targets
 
-### Phase 4: i18n Setup (In Progress)
-- [ ] Configure react-i18next
-- [ ] Create English translations
-- [ ] Create Telugu translations
-- [ ] Add language switcher
+### Phase 4: i18n Setup ✅ COMPLETE
+- ✅ Configure react-i18next
+- ✅ Create English translations
+- ✅ Create Telugu translations
+- ✅ Add language switcher
 
-### Phase 5: Recipe System (Next)
-- [ ] Create recipe database in Firestore
-- [ ] Build recipe browser UI
-- [ ] Add recipe filtering/search
-- [ ] Create recipe detail view
+### Phase 5: Recipe System ✅ MVP COMPLETE
+- ✅ Create sample recipe data (4 recipes)
+- ✅ Build recipe browser UI
+- ✅ Add recipe filtering/search by category
+- ✅ Create recipe detail view
+- [ ] Connect to Firestore (future enhancement)
 
 ### Phase 6: Meal Planning
 - [ ] Build meal plan calendar
@@ -161,6 +162,37 @@ meal-planner-v2/
 - [ ] Ingredient aggregation
 - [ ] Category grouping
 - [ ] Shopping checklist
+
+---
+
+## 🚀 Deployment
+
+### Live Deployments
+
+**GitHub Pages (Primary)**
+- URL: https://manchukondaharishaidev.github.io/meal-planner-v2/
+- Status: ✅ Deployed
+- Auto-deploy: On push to main branch
+- Workflow: `.github/workflows/deploy.yml`
+
+**Cloudflare Pages (Alternative)**
+- Status: ⏳ Manual setup required via dashboard
+- Dashboard: https://dash.cloudflare.com/pages
+- Note: Create project and connect to GitHub repo for auto-deployment
+
+### Deployment Process
+
+1. **Automatic (GitHub Pages)**
+   - Push to main branch triggers GitHub Actions
+   - Builds and deploys automatically
+   - Available in ~2 minutes
+
+2. **Manual (Cloudflare)**
+   - Create project in Cloudflare dashboard
+   - Connect to GitHub repo: `manchukondaharishaidev/meal-planner-v2`
+   - Framework preset: Vite
+   - Build command: `npm run build`
+   - Output directory: `dist`
 
 ---
 
@@ -217,12 +249,12 @@ npm run preview
 | Authentication | ✅ Complete | 100% |
 | User Profile | ✅ Complete | 100% |
 | Dashboard | ✅ Complete | 100% |
-| Recipe Browser | ⏳ Next | 0% |
-| Meal Planner | ⏳ Pending | 0% |
-| Progress Tracker | ⏳ Pending | 0% |
-| Telugu Translation | ⏳ Pending | 0% |
+| Recipe Browser | ✅ Complete | 100% |
+| i18n Telugu Support | ✅ Complete | 100% |
+| Meal Planner | ⏳ Future | 0% |
+| Progress Tracker | ⏳ Future | 0% |
 
-**Overall Progress: 50%**
+**Overall Progress: 80%** (MVP Complete & Deployed!)
 
 ---
 
