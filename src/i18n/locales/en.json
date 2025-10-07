@@ -1,0 +1,102 @@
+{
+  "common": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "name": "Full Name",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "next": "Next",
+    "back": "Back",
+    "welcomeBack": "Welcome Back",
+    "welcome": "Welcome"
+  },
+  "auth": {
+    "loginTitle": "Welcome Back",
+    "loginSubtitle": "Sign in to your meal planner account",
+    "signupTitle": "Create Your Account",
+    "signupSubtitle": "Step {{step}} of 3: {{stepName}}",
+    "forgotPassword": "Forgot password?",
+    "resetEmailSent": "Password reset email sent! Check your inbox.",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "signInWithGoogle": "Sign in with Google",
+    "continueWith": "Or continue with",
+    "createAccount": "Create Account"
+  },
+  "profile": {
+    "age": "Age (years)",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "currentWeight": "Current Weight (kg)",
+    "height": "Height (cm)",
+    "currentBodyFat": "Current Body Fat %",
+    "targetWeight": "Target Weight (kg)",
+    "activityLevel": "Activity Level",
+    "dietaryPreferences": "Dietary Preferences",
+    "completeProfile": "Complete Your Profile",
+    "completeProfileSubtitle": "Let's set up your personalized meal plan",
+    "bodyMetrics": "Body Metrics",
+    "goals": "Your Goals",
+    "completeSetup": "Complete Setup",
+    "bodyFatHelp": "Estimate if unsure (10-15% lean, 15-20% average, 20%+ higher)",
+    "passwordHelp": "At least 6 characters"
+  },
+  "activityLevels": {
+    "sedentary": "Sedentary (little/no exercise)",
+    "light": "Light (1-3 days/week)",
+    "moderate": "Moderate (3-5 days/week)",
+    "active": "Active (6-7 days/week)",
+    "very_active": "Very Active (athlete level)"
+  },
+  "dietary": {
+    "vegetarian": "Vegetarian",
+    "vegan": "Vegan",
+    "gluten-free": "Gluten-free",
+    "dairy-free": "Dairy-free"
+  },
+  "dashboard": {
+    "title": "Meal Planner",
+    "welcomeBack": "Welcome back, {{name}}!",
+    "dailyCalories": "Daily Calories",
+    "proteinTarget": "Protein Target",
+    "currentWeight": "Current Weight",
+    "targetWeight": "Target Weight",
+    "macroTargets": "Daily Macro Targets",
+    "yourMetrics": "Your Metrics",
+    "quickActions": "Quick Actions",
+    "browseRecipes": "Browse Recipes",
+    "viewMealPlan": "View Meal Plan",
+    "trackProgress": "Track Progress",
+    "protein": "Protein",
+    "carbs": "Carbs",
+    "fat": "Fat"
+  },
+  "metrics": {
+    "bmi": "BMI",
+    "bmr": "BMR",
+    "tdee": "TDEE",
+    "currentBodyFat": "Current Body Fat",
+    "targetBodyFat": "Target Body Fat",
+    "activityLevel": "Activity Level"
+  },
+  "steps": {
+    "account": "Account",
+    "metrics": "Metrics",
+    "goals": "Goals"
+  },
+  "validation": {
+    "fillAllFields": "Please fill in all fields",
+    "passwordMin": "Password must be at least 6 characters",
+    "passwordsMismatch": "Passwords do not match",
+    "ageRange": "Age must be between 15-100 years",
+    "weightRange": "Weight must be between 30-300 kg",
+    "heightRange": "Height must be between 100-250 cm",
+    "bodyFatRange": "Body fat must be between 3-60%"
+  }
+}

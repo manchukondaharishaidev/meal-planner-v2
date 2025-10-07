@@ -1,8 +1,8 @@
-import {
+import type {
   CalorieCalculationInput,
   CalorieCalculationResult,
-  ActivityLevelMultipliers,
 } from '../types';
+import { ActivityLevelMultipliers } from '../types';
 
 /**
  * Calculate BMR using Mifflin-St Jeor Equation

@@ -231,4 +231,6 @@ export interface AuthContextType {
   signUp: (email: string, password: string, profile: Partial<UserProfile>) => Promise<void>;
   signOut: () => Promise<void>;
   updateProfile: (updates: Partial<UserProfile>) => Promise<void>;
+  signInWithGoogle: () => Promise<void>;
+  resetPassword: (email: string) => Promise<void>;
 }
